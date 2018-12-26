@@ -1,0 +1,14 @@
+{
+  "name": "rhapsody",
+  "version": "0.0.1",
+  "description": "An Open Source Media Streaming Server",
+  "main": "index.js",
+  "repository": "https://github.com/Squishy123/Rhapsody.git",
+  "author": "Squishy123 <christian.gnaw@gmail.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "fastify": "^1.13.3",
+    "glob": "^7.1.3"
+  }
+}
