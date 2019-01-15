@@ -9,6 +9,14 @@
   "dependencies": {
     "dotenv": "^6.2.0",
     "fastify": "^1.13.3",
-    "glob": "^7.1.3"
+    "glob": "^7.1.3",
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "scripts": {
+    "dev": "next ./plugins/system/status",
+    "build": "next build ./plugins/system/status",
+    "start": "next start ./plugins/system/status"
   }
 }
